@@ -5,11 +5,7 @@ export type ExampleProps = {
 };
 
 const Example: FC<ExampleProps> = ({ text }) => {
-  return (
-    <div>
-      {text}
-    </div>
-  );
+  return <div>{text}</div>;
 };
 
 export default Example;
