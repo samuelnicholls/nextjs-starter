@@ -1,1 +1,6 @@
-// Types go here
+export type Post = {
+  userId: number,
+  id: number,
+  title: string
+  body: string
+}
